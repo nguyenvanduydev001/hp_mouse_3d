@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chuột Gaming HP 3D Scrollytelling
 
-## Getting Started
+[**👉 Xem Live Demo tại đây 🚀**](https://hp-mouse-3d.vercel.app/)
 
-First, run the development server:
+Dự án này là một trang landing page ứng dụng kỹ thuật **Scrollytelling** đỉnh cao, xoay quanh hoạt ảnh mượt mà của một nguyên mẫu chuột HP Gaming Mouse. Chuột sẽ liên tục được báo mở ra cấu trúc đa lớp hoặc lắp ráp lại theo quá trình cuộn trang của người dùng. Trang web cũng đã được tối ưu hiển thị đặc biệt tốt thiết bị từ Điện thoại, Máy tính bảng (Tablet) cho đến Máy tính cá nhân (Desktop).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Hình ảnh Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![HP Mouse 3D Demo](./public/demo.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Công Nghệ
 
-## Learn More
+- **[Next.js](https://nextjs.org/)**: React Framework hiện đại (App Router).
+- **[Tailwind CSS](https://tailwindcss.com/)**: Công cụ tạo kiểu giao diện.
+- **[Framer Motion](https://www.framer.com/motion/)**: Quản lý hiệu ứng hoạt ảnh kết nối với điểm cuộn trang.
+- **HTML5 Canvas**: Kết xuất và vẽ vòng lặp 192 khung cảnh chuột 3D với hiệu suất tối đa thông qua `requestAnimationFrame`.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Đơn vị phát triển
+Dự án này được thiết kế và xây dựng bởi sự kết hợp của **antigravity + whisk + flow**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Hướng dẫn chạy cục bộ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Để chạy dự án này trên máy nội bộ:
 
-## Deploy on Vercel
+1. **Cài đặt thư viện**:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Khởi động server**:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Mở trình duyệt và truy cập vào [http://localhost:3000](http://localhost:3000).
